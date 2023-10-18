@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <Title>Rock Paper Scissors but better this time</Title>
+   <link rel="stylesheet" href="styles/styles.css">
+  </head>
+  <body>
+    <h1 class="header">Rock Paper Scissors but better this time</h1>
+
+    <button class="action-button js-action-rock"><img src="images/rock-emoji.png" class="move-icon"></button>
+    <button class="action-button js-action-paper"><img src="images/paper-emoji.png" class="move-icon"></button>
+    <button class="action-button js-action-scissors"><img src="images/scissors-emoji.png" class="move-icon"></button>
+
+    <p class="js-win-or-lose result">Pick a button!</p>
+    <p class="js-images-result">You: <img class="js-player-image result-image" src="images/rock-emoji.png"> Computer: <img class="js-computer-image result-image" src="images/rock-emoji.png"></p>
+    <p class="js-score"></p>
+  <!--//===============================================================================-->
+   <button class="reset-score" onclick="resetScore()">Reset Score  </button>
+   <button class="reset-score js-auto-button" onclick="playAuto()">Start Auto Play</button>
+   <input placeholder="Input Auto Speed Here" class="js-speed-input speed-input-box" onkeypress="event.code === 'Enter' && playAuto();">
+  <!--//===============================================================================-->
+    <script src="scripts/main.js"></script>
+  </body>
+</html> 

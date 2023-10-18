@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(25, 25, 25);
+    color: azure;
+  }
+  .header {
+    font-size:30px;
+    font-weight:bold;
+  }
+  .move-icon {
+    height: 50px;
+    ;
+  }
+  .action-button {
+    background-color: transparent;
+    border: 3px solid white;
+    width: 120px;
+    height: 120px;  
+    border-radius:60px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  .result {
+    font-size: 25px;
+    font-weight:bold;
+    margin-top: 50px;
+  }
+  
+  .result-image {
+    height:30px;
+    width:30px;
+  }
+  .reset-score {
+    border:none;
+    margin: 10px;
+    padding:8px;
+    color:rgb(25, 25, 25); 
+    font-weight:bold;
+    background-color: rgb(102, 114, 165);
+    cursor:pointer;
+  }
+  .speed-input-box {
+    padding:8px;
+    margin: 10px;
+    color:rgb(25, 25, 25);
+    font-weight:bold;
+    background-color: rgb(102, 114, 165);
+  }
+  .speed-input-box.placeholder-color::placeholder {
+    color: rgb(25, 25, 25);
+    font-weight: bold;
+  }
